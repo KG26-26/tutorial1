@@ -3,7 +3,7 @@ name: First Workflow
 on: push
 
 jobs: 
-  First-job: 
+  echo-ubantu-runner: 
     runs-on: ubantu-latest
     steps:
       - name: Checkout code 
