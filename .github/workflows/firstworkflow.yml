@@ -3,8 +3,8 @@ name: First Workflow
 on: push
 
 jobs: 
-  echo-ubantu-runner: 
-    runs-on: ubantu-latest
+  echo-ubuntu-runner: 
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code 
         uses: actions/checkout@v4.2.2
@@ -13,5 +13,5 @@ jobs:
         with:
           java-version: '17'
           distribution: 'microsoft'
-      - name: check Java installed
-        run: echo java --version
+      - name: Check Java installed
+        run: java --version
