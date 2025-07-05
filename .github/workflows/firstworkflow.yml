@@ -3,11 +3,7 @@ name: First Workflow
 
 
 on: 
- workflow_dispatch:
-  inputs: 
-   TARGET_ENV:
-    type: environment
-    default: dev
+ push
 
   
 jobs:
